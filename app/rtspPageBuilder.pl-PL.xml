@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="file" method="upgrade">
     <name>SP Page Buildery Polish Translation</name>
-    <version>1.0.0</version>
+    <version>1.0.0.alpha</version>
     <creationDate>23-03-20231</creationDate>
     <author>rKonik Rafał Kobyliński</author>
     <authorEmail>bok@rkonik.com</authorEmail>
@@ -13,7 +13,7 @@
     <packagerurl>https://rkonik.com</packagerurl>
     <description><![CDATA[
 				   <div class="text-center span12">
-				   <h3>Polski Pakiet językowy dla komponentu SP Easy Image Gallery Polish Translation</h3>
+				   <h3>Polski Pakiet językowy dla komponentu SP Page Builder Polish Translation</h3>
 				   <p><span style="font-weight: normal">rKonik Rafał Kobyliński przeprowadził kompletne tłumaczenia komponentu<br />Przygotowanie kosztuje wiele czasu i pracy.</span></p>
 				   <div class="alert alert-info">
 				   <h3>Jesteś zadowolony z tłumaczenia, Pakiet się przydał i zaoszczędził tobie wiele czasu.</h3>
@@ -37,9 +37,9 @@
         </files>
 
         <!-- front-end -->
-<!--        <files folder="site" target="language/pl-PL">-->
-<!--            <filename>com_speasyimagegallery.ini</filename>-->
-<!--        </files>-->
+        <files folder="site" target="language/pl-PL">
+            <filename>com_sppagebuilder.ini</filename>
+        </files>
 
     </fileset>
 
