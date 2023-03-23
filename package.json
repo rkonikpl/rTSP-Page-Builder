@@ -1,0 +1,25 @@
+{
+  "name": "rTSP-Page-Builder",
+  "version": "1.0.0",
+  "description": "Polskie tłumaczenie przygotowane do komponentu SP Page Builder Pro Tłumaczenie jest przygotowane do wersji komponentu X Joomla 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rkonikpl/rTSP-Page-Builder.git"
+  },
+  "author": "rKonik Rafał Kobyliński",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rkonikpl/SP-Easy-Image-Gallery-Polish-Translation/issues"
+  },
+  "homepage": "https://github.com/rkonikpl/SP-Easy-Image-Gallery-Polish-Translation#readme",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.1.0"
+  }
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade">
+    <name>SP Page Buildery Polish Translation</name>
+    <version>1.0.0</version>
+    <creationDate>23-03-20231</creationDate>
+    <author>rKonik Rafał Kobyliński</author>
+    <authorEmail>bok@rkonik.com</authorEmail>
+    <authorUrl>rkonik.com</authorUrl>
+    <copyright>Copyright (C) 2021 rKonik Rafał Kobyliński and Open Source Matters, Inc. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <url>https://rkonik.com</url>
+    <packager>rKonik Rafał Kobyliński</packager>
+    <packagerurl>https://rkonik.com</packagerurl>
+    <description><![CDATA[
+				   <div class="text-center span12">
+				   <h3>Polski Pakiet językowy dla komponentu SP Easy Image Gallery Polish Translation</h3>
+				   <p><span style="font-weight: normal">rKonik Rafał Kobyliński przeprowadził kompletne tłumaczenia komponentu<br />Przygotowanie kosztuje wiele czasu i pracy.</span></p>
+				   <div class="alert alert-info">
+				   <h3>Jesteś zadowolony z tłumaczenia, Pakiet się przydał i zaoszczędził tobie wiele czasu.</h3>
+                    <p style="font-weight: normal">Proszę prześlij informację i uwagi odnośnie tłumaczenia. <br />Zajmie Ci mało czasu a dla mnie to cenne informacje</p>
+				   <p>&nbsp;</p>
+				   <H1>Dziękujemy</h1>
+				   </div>
+				   </div>
+				   ]]></description>
+
+<!--todo ustaw skrypt-->
+<!--    <scriptfile>script.php</scriptfile>-->
+
+    <!-- Fileset definition -->
+    <fileset>
+
+        <!-- back-end -->
+        <files folder="admin" target="administrator/language/pl-PL">
+            <filename>com_sppagebuilder.ini</filename>
+            <filename>com_sppagebuilder.sys.ini</filename>
+        </files>
+
+        <!-- front-end -->
+<!--        <files folder="site" target="language/pl-PL">-->
+<!--            <filename>com_speasyimagegallery.ini</filename>-->
+<!--        </files>-->
+
+    </fileset>
+
+<!--    todo zmień adres-->
+<!--    <changelogurl>https://github.com/rkonikpl/SP-Easy-Image-Gallery-Polish-Translation/raw/main/app/changelog.xml</changelogurl>-->
+
+</extension>
